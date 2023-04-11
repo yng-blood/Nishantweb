@@ -1,0 +1,174 @@
+.footer{
+    background-color: blue;
+    color: white;
+    margin: 0px;
+    padding: 50px;
+    box-shadow: black ,6px , 0px;
+}
+#rot{
+  transform: rotate(-90deg);
+  margin-left: 0px;
+ padding-left: -30px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-bottom: 44px;
+}
+.manage{
+display:inline-block;
+padding-left:35%;
+
+}
+.Hamburger{
+  background-color: rgb(97, 102, 102);
+  
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  letter-spacing: normal;
+    word-spacing: normal;
+}
+.fa-1x{
+ background-color: rgb(254, 252, 252); 
+
+}
+.rotate{
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 100;
+ padding-left: 117px;
+    rotate:40px ;
+    color: wheat;
+    
+}
+
+ .Nav{
+    text-decoration: none;
+    margin:-33px;
+    font-family:cursive;
+    /* padding: 15px; */
+    margin-left: 3em ;
+    padding-left: 10px;
+ }
+ .Nav:hover{
+    background-color: rgba(66, 3, 3, 0.05);
+ }
+ .bollywoodContainer{
+  display:grid;
+  display: grid;
+  grid-template-columns: auto auto auto;
+ }
+ .parentFlex{
+  font-size: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+ }
+ .Vre{
+  flex-wrap: wrap;
+  width: 290px;
+  font-size: medium;
+ }
+ .Title{
+  flex-wrap: wrap;
+  width: 290px;
+  font-size: medium;
+  text-decoration: none;
+ }
+ .re{
+  flex-wrap: wrap;
+  width: 290px;
+  font-size: medium;
+ }
+ .advertisement{
+  height: 670px;
+  width: 490px;
+  background-color: rgba(0, 255, 255, 0.078);
+  position:absolute;
+  left: 554px;
+  top: 550px;
+ }
+.block{
+    display: flex;
+    padding-left: 2px;
+    text-decoration: none;
+}
+span.Title{
+  text-decoration: none;
+  font-family: cursive;
+}
+div.re{
+  text-decoration: none;
+  font-family: cursive;
+}
+.flexrow{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .Vre{
+    text-decoration: none;
+  font-family: cursive;
+    color: black;
+
+  }
+  .flexcol{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .img1{
+    box-shadow: 20px;
+  }
+  .img1:hover{
+    transform:translateY(7px);
+
+  }
+  
+  .Nav:active{
+    color: red;
+  }
+.navbar-toggler-icon{
+    background-color:blue;
+    color: black;
+  }
+  @media only screen and (max-width: 800px) {
+    .block{
+      display: block;
+      padding-left: 2px;
+      text-decoration: none;
+  }
+  .flexrow{
+    display:block;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .flexcol{
+    display:block;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .parentFlex{
+    display:block;
+
+  }
+  .Nav{
+    text-decoration: none;
+    margin:33px;
+    font-family:cursive;
+    margin-left: 3em ;
+    padding-left: 10px;
+ }
+ .manage{
+  display:inline-block;
+  padding-left:5%;
+  
+  }
+  .advertisement{
+    height: 200px;
+    width: 190px;
+    background-color: rgba(0, 255, 255, 0.078);
+    position:sticky;
+    left: 351px;
+    top: 150px;
+   }
+
+  }
