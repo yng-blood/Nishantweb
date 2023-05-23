@@ -5,18 +5,133 @@
     padding: 50px;
     box-shadow: black ,6px , 0px;
 }
-#rot{
-  transform: rotate(-90deg);
-  margin-left: 0px;
- padding-left: -30px;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- margin-bottom: 44px;
+.blocks{
+  display:block;
+  padding-left: 2px;
+  text-decoration: none;
+  padding: 13px;
 }
-.manage{
-display:inline-block;
-padding-left:35%;
+.Nav{
+  text-decoration: none;
+  margin:0px;
+  font-family:cursive;
+  padding-bottom: 5px;
+  padding: 10px;
+  display:flexbox;
+
 
 }
+.Nav:hover{
+  background-color: rgba(66, 3, 3, 0.05);
+}
+.Navigation-fix{
+  display: flex;
+  flex-wrap: wrap;
+}
+.videosplay{
+  overflow: hidden;
+  height: 500px;
+}
+.Bigbox{
+  padding: 13px;
+  padding-left: 10px;
+font-family: cursive;
+justify-content:center;
+display:flex;
+flex-wrap: wrap;
+position: absolute;
+top: 10px;
+left: 50px;
+}
+.testnew{
+    position:relative;
+    top: 0px;
+    height: 290px;
+    width: 490px;
+    background-color:white;
+    border-radius:  30px 0  90px;
+    box-shadow: rgba(255, 0, 0, 0.1) 24px 74px 45px;
+    justify-items:center;
+}
+#diffrentbox1{
+  position:absolute;
+  left: 15px;
+  top: 428px;
+  padding: 23px;
+  height: 443px;
+  width: 890px;
+  background-color: rgba(255, 230, 0, 0.188);
+  justify-items:center;
+  box-shadow: rgba(255, 230, 0, 0.188) 24px 74px 45px;
+  
+}
+.NewHam{
+  background-color: rgba(240, 18, 18, 0.061);
+  height: 90px;
+  width: 90px;
+}
+.TitlesN{
+  font-size: xx-large;
+  color: blue;
+text-shadow: black 6px 8px 8px;
+
+}
+
+.backlog{
+  background-image: linear-gradient(rgb(31, 31, 200) rgb(0, 119, 255) rgb(58, 106, 204));
+
+}
+input {
+  border-radius: 20px;
+  width: 220px;
+  height: 35px;
+}
+
+label {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 15px;
+  background-color: #a7e3ef;
+}
+
+span {
+  border-right: 2px solid #000;
+  font-size: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+span:last-child {
+  border-right: none;
+}
+
+.wrapper {
+  background-color: #7aaeb9;
+  border: 1px solid #000;
+  margin: 35px;
+}
+
+.tile-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.tile {
+  background-color: #c35b6d;
+  padding: 34px;
+  border-radius: 25px;
+  width: 534px;
+  margin: 10px;
+}
+
+
 .Hamburger{
   background-color: rgb(97, 102, 102);
   
@@ -40,17 +155,6 @@ padding-left:35%;
     
 }
 
- .Nav{
-    text-decoration: none;
-    margin:-33px;
-    font-family:cursive;
-    /* padding: 15px; */
-    margin-left: 3em ;
-    padding-left: 10px;
- }
- .Nav:hover{
-    background-color: rgba(66, 3, 3, 0.05);
- }
  .bollywoodContainer{
   display:grid;
   display: grid;
@@ -67,6 +171,19 @@ padding-left:35%;
   width: 290px;
   font-size: medium;
  }
+ .Bigbox{
+  padding: 13px;
+  padding-left:15px;
+  width: 90%;
+  height: auto;
+font-family: cursive;
+justify-content:center;
+display:flex;
+flex-wrap: wrap;
+position:static;
+top: 10px;
+left: 50px;
+}
  .Title{
   flex-wrap: wrap;
   width: 290px;
@@ -87,9 +204,11 @@ padding-left:35%;
   top: 550px;
  }
 .block{
-    display: flex;
+    display:flex;
     padding-left: 2px;
     text-decoration: none;
+    width: 90px;
+    display:contents;
 }
 span.Title{
   text-decoration: none;
@@ -123,9 +242,6 @@ div.re{
 
   }
   
-  .Nav:active{
-    color: red;
-  }
 .navbar-toggler-icon{
     background-color:blue;
     color: black;
@@ -136,31 +252,69 @@ div.re{
       padding-left: 2px;
       text-decoration: none;
   }
-  .flexrow{
-    display:block;
-    justify-content: center;
-    flex-direction: row;
+  .NewHam{
+    height: 60px;
+    width: 40x;
   }
-  .flexcol{
-    display:block;
-    justify-content: center;
-    flex-direction: column;
+  .videosplay{
+    overflow: hidden;
+    height: 800px;
   }
-  .parentFlex{
-    display:block;
+  .Blankspace{
+    margin-top: 10px;
+    left: 0;
+    height: 100px;
+    background-color: grey;
+    width: 100%;
+}
 
-  }
+  .block{
+    display:flexbox;
+    padding-left: 2px;
+    text-decoration: none;
+}
+#diffrentbox1{
+  position:relative;
+  left:2px;
+  top: 92px;
+  padding: 13px;
+  height: 543px;
+  width: 360px;
+  background-color: rgba(255, 230, 0, 0.188);
+  justify-items:center;
+  box-shadow: rgba(255, 230, 0, 0.188) 24px 74px 45px;
+}
+.Blankspace{
+  margin-top: 10%;
+}
+ 
   .Nav{
     text-decoration: none;
-    margin:33px;
+    margin:63px;
+    padding: 10px;
     font-family:cursive;
-    margin-left: 3em ;
+    margin-left: 0em ;
     padding-left: 10px;
+    display:flexbox;
+    flex-wrap: wrap;
+
+    
  }
  .manage{
   display:inline-block;
   padding-left:5%;
   
+  }
+#td{
+  padding-left: 190px;
+  }
+  .newlogin{
+  height: 400px;
+  width: 400px;
+  }
+  .homepage1{
+    height: 200px;
+    width: 200px;
   }
   .advertisement{
     height: 200px;

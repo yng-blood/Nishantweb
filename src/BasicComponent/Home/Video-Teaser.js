@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Iphone = () => {
+const VideoTeaser = () => {
+   
   return (
     <div>
-        ipad
+
     </div>
   )
 }
 
-export default Iphone
+export default VideoTeaser
